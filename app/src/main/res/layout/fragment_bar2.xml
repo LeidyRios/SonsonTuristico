@@ -1,0 +1,27 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sonson.sonsonturistico.bar2Fragment">
+
+    <LinearLayout style="@style/LinearLayoutStyle"
+        android:background="@drawable/fondo">
+        <TextView style="@style/textViewStyle.Title"
+            android:text="Maracana"
+            android:textColor="@color/white"
+            >
+        </TextView>
+        <ImageView style="@style/imageViewStyle"
+            android:src="@drawable/maracana">
+        </ImageView>
+        <TextView style="@style/textViewStyle.Content"></TextView>
+        <TextView style="@style/textViewStyle.Content"
+            android:text="SITIO DISCO BAR 100%CROSSOVER">
+        </TextView>
+        <TextView style="@style/textViewStyle.Content"></TextView>
+        <TextView style="@style/textViewStyle.Content"
+            android:text=" Informacion : +57 314 7157524">
+        </TextView>
+
+    </LinearLayout>
+</FrameLayout>

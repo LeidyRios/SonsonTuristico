@@ -1,0 +1,31 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="sonson.sonsonturistico.hotel2Fragment">
+
+    <LinearLayout style="@style/LinearLayoutStyle"
+        android:background="@drawable/fondo">
+        <TextView style="@style/textViewStyle.Title"
+            android:text="La Caverna"
+            android:textColor="@color/white"
+            >
+        </TextView>
+        <ImageView style="@style/imageViewStyle"
+            android:src="@drawable/hotellacaverna">
+        </ImageView>
+        <TextView style="@style/textViewStyle.Content"></TextView>
+        <TextView style="@style/textViewStyle.Content"
+            android:text="A solo 10 minutos del parque de las aguas por la via nueva a mano derecha del letrero Parcelación Mercurio.">
+        </TextView>
+
+        <TextView style="@style/textViewStyle.Content"
+            android:text="Los Arcos Finca Hotel
+sonson - Antioquia - Colombia
+Teléfono: (4) 467 61 21, Celular: 313 768 47 34
+info@losarcosfincahotel.com
+www.hotellacaverna.com">
+        </TextView>
+    </LinearLayout>
+
+</FrameLayout>
